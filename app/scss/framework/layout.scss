@@ -60,3 +60,19 @@
     max-width: 1140px;
   }
 }
+
+
+@mixin flexItems($alignItems,$justifyContent) {
+  display: flex;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+}
+
+@mixin gridRepeat($number){
+  display: grid;
+  grid-template-columns: repeat($number,1fr);
+}
+
+@mixin gap($pixels){
+  grid-column-gap: $pixels;
+}
