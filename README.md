@@ -1,11 +1,12 @@
 # Skeleton
-Skeleton is easy Front-End development framework for Gulp, Pug (HTML) and SCSS.
+Skeleton is a Gulp framework designed to streamline interface development.
 
 Clone project
 ````
-$ git clone git@github.com:set/skeleton.git
-$ cd skeleton
+$ git clone git@github.com:set/skeleton.git myproject
+$ cd myproject
 $ npm i
+$ sudo npm install -g gulp-cli // if is not installed
 $ gulp
 ````
-Your production files exported to dist folder when you save your development file.
+Your production files will export to assets folder when you save your source file.
