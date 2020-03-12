@@ -16,8 +16,9 @@
     "del": "^5.1.0",
     "dest": "^0.3.1",
     "gulp": "^4.0.2",
-    "gulp-haml": "^1.0.1",
     "gulp-minify": "^3.1.0",
+    "gulp-nunjucks": "^5.0.1",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.1"
   },
   "dependencies": {
